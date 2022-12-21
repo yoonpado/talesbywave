@@ -185,20 +185,25 @@ a{text-decoration:none;font-size:14px}
   content: "feel anxious.";
   color:black;
 }
-    </style>
-
+  </style>
+  
+  <script>
+  function btn(sample){  
+     alert(sample); 
+  } 
+  </script>
 
   </head>
   <body>
     <ul class="menu">
         <li>
-          <a href="https://yoonpado.github.io/">메인 페이지</a>
+          <a href="https://yoonpado.github.io/" onclick="javascript:btn('메인 페이지로 이동합니다.')">메인 페이지</a>
         </li>
         <li>
-          <a href="https://yoonpado.github.io/subpages/introduction.html">자기 소개</a>
+          <a href="https://yoonpado.github.io/subpages/introduction.html" onclick="javascript:btn('자기소개로 이동합니다.')">자기 소개</a>
         </li>
         <li>
-          <a href="https://yoonpado.github.io/subpages/topsecret.html" target="blank">갤러리
+          <a href="https://yoonpado.github.io/subpages/topsecret.html" onclick="javascript:btn('갤러리로 이동합니다.')" target="blank">갤러리
           </a>
         </li>
       <iframe  name="intro"></iframe>
