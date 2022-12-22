@@ -43,7 +43,6 @@ a{text-decoration:none;font-size:14px}
     body{
         margin-top:10px;
         overflow: hidden;
-        background-image: url(https://user-images.githubusercontent.com/106211682/172650178-5cccba13-dbb7-4de5-858e-a8783dce0499.jpg);
         background-size: 960px;
       }
     footer{
@@ -164,7 +163,6 @@ a{text-decoration:none;font-size:14px}
         text-align:center;
         font-family: 'Roboto Slab', serif;
         font-size: 40px;
-        color:white;
         transition: margin-top 1s;
 }
 
@@ -186,15 +184,16 @@ a{text-decoration:none;font-size:14px}
   color:black;
 }
   </style>
-  
-  <script>
-  function btn(sample){  
-     alert(sample); 
-  } 
-  </script>
+
 
   </head>
   <body>
+    <script>
+      function btn(sample){  
+         alert(sample); 
+      }
+      document.body.style.backgroundColor = "black";
+    </script>
     <ul class="menu">
         <li>
           <a href="https://yoonpado.github.io/" onclick="javascript:btn('메인 페이지로 이동합니다.')">메인 페이지</a>
